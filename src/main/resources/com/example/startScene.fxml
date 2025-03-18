@@ -8,7 +8,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.startController">
    <children>
       <TableView fx:id="betTable" layoutX="28.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
@@ -22,5 +21,6 @@
       <Label layoutX="437.0" layoutY="6.0" text="Fogadott autó neve" />
       <Button layoutX="261.0" layoutY="69.0" mnemonicParsing="false" onAction="#onClickBetButton" text="FOGADÁS" textFill="#16ba20" />
       <ComboBox fx:id="betComboBox" layoutX="436.0" layoutY="27.0" prefWidth="150.0" promptText="Válsasz" />
+      <Button layoutX="261.0" layoutY="135.0" mnemonicParsing="false" onAction="#onClick_raceButton" prefHeight="25.0" prefWidth="318.0" text="VERSENYHEZ" />
    </children>
 </Pane>
