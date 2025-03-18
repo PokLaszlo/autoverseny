@@ -1,0 +1,4 @@
+TODO:
+-téglalapokon legyen felirat
+-másik(első) scene, ahol a fogadók felvehetők
+-
